@@ -59,13 +59,13 @@
         }
     </style>
 </head>
-<body class="h-full bg-gray-100 text-gray-900 font-sans leading-normal flex justify-center items-start pt-8">
+<body class="h-full bg-white text-gray-900 font-sans leading-normal">
 
     <!-- App Container -->
-    <div id="app" class="w-11/12 max-w-4xl bg-white rounded-lg shadow-lg flex flex-col overflow-hidden">
+    <div id="app" class="w-full h-full flex flex-col">
         
         <!-- Notepad (Canvas) -->
-        <section id="canvas" class="relative self-stretch min-h-[75vh] flex overflow-x-auto border border-gray-200 p-6 flex-grow">
+        <section id="canvas" class="relative flex-grow flex overflow-x-auto p-6">
             <div id="canvas-anchor" class="relative z-0 w-full">
                 <!-- Textarea for user input -->
                 <textarea id="editor" rows="1" spellcheck="false" placeholder="Type your math problems here...&#10;&#10;Examples:&#10;24 * (7 + 9) / 8 =&#10;&#10;rate = 73&#10;12 nights&#10;rate * nights =&#10;&#10;79-19% =&#10;7% of 25 =" 
@@ -75,7 +75,7 @@
             </div>
         </section>
 
-        <!-- Toolbar -->
+        <!-- Toolbar / Status Bar -->
         <section id="app-toolbar" class="text-sm py-2 px-4 text-right border-t border-gray-200 bg-gray-50">
             <a id="copyBtn" title="Copy all text to clipboard" href="#" class="no-underline text-gray-700 inline-flex items-center gap-2 py-1 px-2 rounded transition-colors duration-200 hover:bg-gray-200">
                 <svg class="icon"><use xlink:href="#icon-clipboard"></use></svg>
@@ -195,3 +195,4 @@
     </script>
 </body>
 </html>
+
