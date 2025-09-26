@@ -1,3 +1,5 @@
+![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fmesbahulalam%2Fnotepad-calculator&leftColor=000000&rightColor=0adb3f&type=total&label=Views&style=none)
+
 # notepad-calculator
 A fork of https://nekocalc.com/notepad-calculator
 
