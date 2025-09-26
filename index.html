@@ -13,8 +13,13 @@
         .sidebar-item.active {
             background-color: #e5e7eb; /* bg-gray-200 */
         }
-        .dark .sidebar-item.active {
-            background-color: #374151; /* dark:bg-gray-700 */
+        @media (prefers-color-scheme: dark) {
+            .sidebar-item.active {
+                background-color: #374151; /* dark:bg-gray-700 */
+            }
+            #editor {
+                color:#e5e7eb; /* text-gray-200 */
+            }
         }
         
         /* --- Custom styles for Calculator --- */
